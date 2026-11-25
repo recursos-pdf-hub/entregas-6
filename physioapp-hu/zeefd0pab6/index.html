@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>FizioTérkép · hozzáférés</title>
+<link rel="icon" href="img/logo.png">
+<style>
+:root{--bg:#f6f2ec;--ink:#14262a;--soft:#4f6366;--mut:#8fa1a3;--ac:#0d857a;--acd:#0b6b62;--navy:#0c3b3f;--sf:#def3f0;--sky:#a9e2da;--line:#e2dacd}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+body{overflow-wrap:break-word;hyphens:auto}
+a{color:inherit;text-decoration:none}
+.top{background:var(--navy);color:#fff;padding:12px 16px;display:flex;align-items:center;gap:10px}
+.top img{width:30px;height:30px;border-radius:8px;background:#fff}
+.top b{letter-spacing:.05em}
+.wrap{max-width:960px;margin:0 auto;padding:22px 16px 56px}
+.badge{display:inline-block;background:var(--sf);color:var(--navy);font-size:13px;font-weight:700;border-radius:99px;padding:6px 14px}
+h1{font-size:26px;line-height:1.45;color:var(--navy);margin:14px 0 8px}
+.sub{font-size:15.5px;line-height:1.85;color:var(--soft);margin:0}
+.hero{display:block;width:100%;margin:18px 0 6px;mix-blend-mode:multiply}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:8px 0 26px}
+.stats div{background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 8px;text-align:center}
+.stats b{display:block;font-size:26px;color:var(--navy)}
+.stats span{font-size:12.5px;color:var(--soft)}
+.main{display:grid;gap:12px}
+@media(min-width:720px){.main{grid-template-columns:1.3fr 1fr}}
+.card{display:flex;flex-direction:column;gap:6px;border-radius:22px;padding:22px;background:#fff;border:1px solid var(--line);box-shadow:0 10px 30px -22px rgba(20,38,42,.6)}
+.card.app{background:var(--ac);color:#fff;border-color:var(--ac)}
+.card .ic{font-size:34px}
+.card b{font-size:20px;line-height:1.4}
+.card p{margin:0;font-size:14.5px;line-height:1.8;opacity:.92}
+.card .go{margin-top:8px;display:inline-block;align-self:flex-start;border-radius:99px;padding:11px 20px;font-weight:800;background:#fff;color:var(--acd)}
+.card.pdf .go{background:var(--navy);color:#fff}
+h2{font-size:20px;color:var(--navy);margin:34px 0 12px}
+.bonos{display:grid;gap:12px}
+@media(min-width:720px){.bonos{grid-template-columns:repeat(3,1fr)}}
+.bono{background:#fff;border:1px solid var(--line);border-radius:20px;overflow:hidden;display:flex;flex-direction:column}
+.bono img{width:100%;aspect-ratio:4/3;object-fit:cover;background:var(--sf)}
+.bono div{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.bono .tag{align-self:flex-start;font-size:11.5px;font-weight:800;background:var(--sf);color:var(--acd);border-radius:99px;padding:3px 10px}
+.bono b{font-size:16.5px;line-height:1.5;color:var(--navy)}
+.bono p{margin:0;font-size:13.5px;line-height:1.75;color:var(--soft)}
+.bono .dl{margin-top:auto;padding-top:6px;font-size:13px;font-weight:800;color:var(--ac)}
+ol.steps{list-style:none;padding:0;margin:0;display:grid;gap:10px;counter-reset:s}
+ol.steps li{counter-increment:s;background:#fff;border:1px solid var(--line);border-radius:16px;padding:14px 16px 14px 58px;position:relative;font-size:14.5px;line-height:1.8}
+ol.steps li:before{content:counter(s);position:absolute;left:16px;top:14px;width:30px;height:30px;border-radius:50%;background:var(--ac);color:#fff;font-weight:800;display:grid;place-items:center}
+ol.steps b{display:block;color:var(--navy);font-size:15.5px}
+.next{margin-top:30px;background:var(--navy);color:#fff;border-radius:20px;padding:22px}
+.next small{color:var(--sky);font-weight:800;letter-spacing:.14em}
+.next b{display:block;font-size:19px;margin:4px 0 8px}
+.next p{margin:0;line-height:1.85;color:#e3efeb;font-size:14.5px}
+.foot{font-size:12px;color:var(--mut);line-height:1.8;margin-top:26px}
+</style>
+</head>
+<body>
+<header class="top"><img src="img/logo.png" alt=""><b>FizioTérkép</b></header>
+<main class="wrap">
+<span class="badge">Köszönjük a vásárlást · tedd könyvjelzőbe ezt az oldalt</span>
+<h1>FizioTérkép · 54 téma és 160+ oldalnyi vizuális térkép az állapotfelméréstől a rehabilitációig · 3 ajándék bónusz</h1>
+<p class="sub">Gyógytorna az állapotfelméréstől a rehabilitációig, vizuális térképekkel és tényleg megmaradó ismétléssel. Az alkalmazást telefonon és számítógépen is bármikor megnyithatod erről az oldalról.</p>
+<img class="hero" src="img/pacote.jpg" alt="">
+<div class="stats"><div><b>54</b><span>téma</span></div><div><b>201</b><span>oldal (PDF)</span></div><div><b>324</b><span>ellenőrző kérdés</span></div></div>
+<div class="main">
+ <a class="card app" href="app/"><span class="ic">📱</span><b>A FizioTérkép alkalmazás megnyitása</b><p>54 téma vizuális térképekkel, adatlap minden tesztről és kórképről, minden oldalon 2 ellenőrző kérdés, memória mód (Leitner-rendszer), 3 szint (Alap, Középhaladó, Klinikai), sorozatok, pontok, jártasság és kitüntetések.</p><span class="go">Alkalmazás megnyitása ›</span></a>
+ <a class="card pdf" href="files/fizioterkep-pdf.pdf" target="_blank" rel="noopener"><span class="ic">📄</span><b>PDF-változat (letöltés és nyomtatás)</b><p>Mind az 54 téma, 201 oldal: vizuális térképek, adatlapok, klinikai lényeg, ellenőrző kérdések, a végén megoldások magyarázattal.</p><span class="go">PDF megnyitása · 23.1 MB</span></a>
+</div>
+<h2>3 ajándék bónusz</h2>
+<div class="bonos"><a class="bono" href="files/bono-tests30.pdf" target="_blank" rel="noopener"><img src="img/bono1.jpg" alt="" loading="lazy"><div><span class="tag">1. bónusz</span><b>Zsebkönyv: a 30 legfontosabb speciális teszt</b><p>A vizsgákon és a klinikai gyakorlaton leggyakoribb 30 speciális teszt: kivitelezés, a pozitív eredmény jelentése és a vizsgált struktúra. Zsebméret (A6).</p><span class="dl">PDF megnyitása / mentése · 33 oldal · 0.4 MB</span></div></a><a class="bono" href="files/bono-rom.pdf" target="_blank" rel="noopener"><img src="img/bono2.jpg" alt="" loading="lazy"><div><span class="tag">2. bónusz</span><b>Nyomtatható normál mozgástartomány-táblázat</b><p>Referenciaértékek minden ízülethez a válltól a bokáig, a jobb és bal oldali mért érték beírásához (A4, 2 oldal).</p><span class="dl">PDF megnyitása / mentése · 2 oldal · 0.2 MB</span></div></a><a class="bono" href="files/bono-redflags.pdf" target="_blank" rel="noopener"><img src="img/bono3.jpg" alt="" loading="lazy"><div><span class="tag">3. bónusz</span><b>Vörös zászlók egy pillantással</b><p>A jelek, amelyek szerint a fájdalom nem mechanikai eredetű és orvosi vizsgálat kellhet, testtájanként egy lapon (fekvő A4).</p><span class="dl">PDF megnyitása / mentése · 1 oldal · 0.1 MB</span></div></a></div>
+<h2>Így kezdj neki</h2>
+<ol class="steps">
+<li><b>Tedd ki az alkalmazást a kezdőképernyőre</b>Nyisd meg az alkalmazást, majd a böngésző megosztás menüjében válaszd a „Hozzáadás a kezdőképernyőhöz” lehetőséget. Legközelebb egy koppintással nyílik.</li>
+<li><b>Kezdd az 1. témával, és válaszolj a 2 kérdésre</b>Minden téma 3 oldal (vizuális térkép, adatlap, klinikai lényeg), mindegyik végén 2 kérdéssel.</li>
+<li><b>Naponta egyszer memória mód</b>A rossz válaszok másnap, a már tudottak egyre nagyobb időközönként jönnek vissza, automatikusan.</li>
+<li><b>Nyomtasd ki a bónuszokat</b>A zsebkönyvet a köpenyed zsebébe, a mozgástartomány-táblázatot és a vörös zászlókat a kezelőágy mellé.</li>
+</ol>
+<div class="next"><small>KÖVETKEZŐ LÉPÉS</small><b>Következő lépés</b><p>Ma nyisd meg az alkalmazásban az 1. témát („Síkok és tengelyek”), és válaszolj az első 2 kérdésre. 10 perc alatt végzel egy témával.</p></div>
+<p class="foot">Tanulási és referenciaanyag gyógytornász hallgatóknak és szakembereknek. Nem helyettesíti a képzett egészségügyi szakember vizsgálatát. A haladásod az adott eszköz böngészőjében tárolódik (eszközönként külön).</p>
+</main>
+</body>
+</html>
